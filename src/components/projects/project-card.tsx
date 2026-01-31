@@ -5,7 +5,7 @@ import Corosel from "@/components/utility/corosel";
 
 export interface ProjectCardProps {
   name: string;
-  favicon: string;
+  favicon?: string;
   imageUrl: string[];
   description: string;
   sourceCodeHref?: string;
