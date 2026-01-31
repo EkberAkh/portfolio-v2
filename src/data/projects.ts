@@ -28,8 +28,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Next.js", "TypeScript", "Government Portal"],
     image: {
-      LIGHT: "/images/projects/ekeyfiyyet.png",
-      DARK: "/images/projects/ekeyfiyyet.png",
+      LIGHT: "/images/projects/eKeyfiyyet.png",
+      DARK: "/images/projects/eKeyfiyyet.png",
     },
   },
 ];
@@ -61,8 +61,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "E-Keyfiyyet",
     favicon: "/images/projects/logos/ekeyfiyyet.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/ekeyfiyyet.png", // <!-- TODO: Replace with your image -->
-      "/images/projects/ekeyfiyyet2.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/eKeyfiyyet.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/eKeyfiyyet2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
       "Government quality management portal built with Next.js and TypeScript. Part of the government-scale projects delivered at AISTGroup.",
