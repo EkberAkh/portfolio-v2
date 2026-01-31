@@ -50,7 +50,8 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           key={page}
-          loading="lazy"
+          loading={imageIndex === 0 ? "eager" : "lazy"}
+          fetchPriority={imageIndex === 0 ? "high" : "auto"}
           className="h-full w-full bg-cover"
           style={{ aspectRatio }}
           src={images[imageIndex]}

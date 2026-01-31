@@ -53,18 +53,20 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
             >
               <Image
                 src={images[currentImage].LIGHT}
-                unoptimized
-                width={100}
-                height={100}
+                width={600}
+                height={400}
+                priority
+                sizes="(max-width: 1024px) 0vw, 50vw"
                 className="h-auto w-1/2 rounded-lg border border-zinc-300 shadow-lg dark:hidden dark:border-accent/50"
                 alt={`project ${currentImage}`}
               />
               {images[currentImage].DARK !== undefined && (
                 <Image
                   src={images[currentImage].DARK!}
-                  unoptimized
-                  width={100}
-                  height={100}
+                  width={600}
+                  height={400}
+                  priority
+                  sizes="(max-width: 1024px) 0vw, 50vw"
                   className="hidden h-auto w-1/2 rounded-lg border border-zinc-300 shadow-lg dark:inline-block dark:border-accent/20 dark:shadow-lg dark:shadow-emerald-400/5"
                   alt={`project ${currentImage}`}
                 />
