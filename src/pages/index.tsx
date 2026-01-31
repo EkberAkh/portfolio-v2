@@ -13,14 +13,14 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Akbar Akhundov | Software Developer"
-        description="Explore the professional portfolio of Akbar Akhundov, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Akbar Akhundov | Frontend Developer"
+        description="Explore the professional portfolio of Akbar Akhundov, a Frontend Engineer specializing in React and Next.js ecosystems. Discover award-winning government-scale projects and modern web solutions."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Akbar Akhundov - Software Developer",
+          title: "Akbar Akhundov - Frontend Developer",
           description:
-            "Dive into the world of web development with Akbar Akhundov. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Akbar Akhundov. Discover a Frontend Engineer delivering award-winning projects using React, Next.js, and TypeScript.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -37,7 +37,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Software Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "Frontend Developer, React Developer, Next.js Developer, TypeScript, Government Projects, IDDA Award, Web Developer, JavaScript, Tailwind CSS, Team Lead",
           },
         ]}
       />
