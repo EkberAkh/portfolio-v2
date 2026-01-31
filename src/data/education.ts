@@ -29,7 +29,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       name: "ABB Tech Academy",
       href: "https://abbinnovation.az/en/",
     },
-    date: "August 2026 - December 2026",
+    date: "August 2023 - December 2023",
     location: "Azerbaijan",
     description:
       "100% Scholarship winner. Received Certificate of Honour in Frontend Development. Secured 1st place in the program.",

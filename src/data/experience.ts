@@ -40,7 +40,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "ABB Tech Academy",
       href: "https://abbinnovation.az/en/",
     },
-    date: "August 2026 - December 2026",
+    date: "August 2023 - December 2023",
     location: "Azerbaijan",
     description:
       "Developed banking dashboards and authentication systems under Agile methodology. Secured 1st place and successfully led first team to deliver high-quality financial software.",
