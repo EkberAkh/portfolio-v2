@@ -103,7 +103,7 @@ const DuotoneImage: React.FC<DuotoneImageProps> = ({
         }
 
         ctx.putImageData(imageData, 0, 0);
-        setProcessedImageUrl(canvas.toDataURL("image/png"));
+        setProcessedImageUrl(canvas.toDataURL("/images/me.png"));
       }
     };
 

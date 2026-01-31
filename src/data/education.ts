@@ -2,36 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "IT and Management - Telecommunication Engineering (English)",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Azerbaijan State Oil and Industry University",
+      href: "https://asoiu.edu.az/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "September 2020 - July 2024",
+    location: "Baku, Azerbaijan",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Bachelor's degree with Overall GPA: 89. Studied IT management and telecommunication engineering with focus on software development.",
   },
   {
-    title: "Higher Secondary School",
+    title: "Full Stack Web Development",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "Israel Azerbaijan Training Center",
+      href: "https://technest.idda.az/az",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "March 2026 - October 2026",
+    location: "Azerbaijan",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Completed comprehensive Full Stack development program. Received Certificate of Honour in Full Stack Development.",
   },
   {
-    title: "Secondary School Education",
+    title: "Frontend Development",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "ABB Tech Academy",
+      href: "https://abbinnovation.az/en/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "August 2026 - December 2026",
+    location: "Azerbaijan",
     description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "100% Scholarship winner. Received Certificate of Honour in Frontend Development. Secured 1st place in the program.",
   },
 ];

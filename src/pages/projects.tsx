@@ -8,18 +8,18 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - Software Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Akbar Akhundov - Frontend Developer Portfolio"
+        description="Explore a collection of projects by Akbar Akhundov, a Frontend Engineer specializing in React and Next.js. From government-scale applications to innovative web solutions."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Amit Chauhan - Software Developer",
+          title: "Discover Projects by Akbar Akhundov - Frontend Developer",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a Software Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Akbar Akhundov, a Frontend Engineer. Award-winning government applications and modern web solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Akbar Akhundov - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects, Akbar Portfolio, Frontend Developer, React Developer, Next.js Developer, TypeScript, Government Projects, Web Applications",
           },
         ]}
       />
@@ -46,26 +46,16 @@ export default function Projects() {
               Here are some of the projects I&apos;d like to share
             </span>
           </div>
-          <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2">
+          <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 xl:grid-cols-3">
             {PROJECTS_CARD.map((card, index) => (
               <ProjectCard key={index} {...card} />
             ))}
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+              I am continuously working on new projects and improving my skills
+              to deliver better solutions.
             </span>
-            <p className="mt-10 text-base md:text-xl">
-              Visit my github to see some of the latest projects{" "}
-              <a
-                href={`${siteMetadata.github}?tab=repositories`}
-                target="_blank"
-                className="font-semibold text-accent underline underline-offset-2 hover:text-accent/70"
-              >
-                Github
-              </a>
-            </p>
           </div>
         </div>
       </section>

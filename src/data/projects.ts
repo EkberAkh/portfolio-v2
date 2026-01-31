@@ -1,125 +1,139 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "E-AHIK",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "IDDA Award Winner"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/ahik.png",
+      DARK: "/images/projects/ahik.png",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "UWORK",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
+    tags: ["React", "TypeScript", "Next.js", "Team Lead"],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/uwork.png", // <!-- TODO: Replace with your image -->
+      DARK: "/images/projects/uwork.png", // <!-- TODO: Replace with your image -->
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "E-Keyfiyyet",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Next.js", "TypeScript", "Government Portal"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/ekeyfiyyet.png",
+      DARK: "/images/projects/ekeyfiyyet.png",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
+    name: "E-AHIK",
+    favicon: "/images/projects/logos/eahik.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/ahik.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/ahik2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "IDDA Digital Project of the Year award-winning government portal. Built with Next.js and TypeScript, delivering a scalable solution for the Agency for Sustainable and Operative Social Security.",
+    liveWebsiteHref: "https://e-ahik.az/",
   },
   {
-    name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
+    name: "UWORK",
+    favicon: "/images/projects/logos/uwork.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/uwork.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/uwork2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Azerbaijan's #1 job matching platform that connects opportunities with the right candidates in just 4 seconds. Leading the frontend team as Team Lead, managing GitHub workflows, and conducting technical interviews.",
+    liveWebsiteHref: "https://uwork.az/",
   },
   {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
+    name: "E-Keyfiyyet",
+    favicon: "/images/projects/logos/ekeyfiyyet.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/ekeyfiyyet.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/ekeyfiyyet2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Government quality management portal built with Next.js and TypeScript. Part of the government-scale projects delivered at AISTGroup.",
+    liveWebsiteHref: "https://e-keyfiyyet.gov.az/home",
   },
   {
-    name: "My portfolio",
-    favicon: "/favicon.ico",
+    name: "E-Reqabet",
+    favicon: "/images/projects/logos/ereqabet.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/eReqabet.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/eReqabet2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+      "State Competition and Consumer Protection portal. A government-scale application developed using modern frontend technologies.",
+    liveWebsiteHref: "https://e-reqabet.gov.az/home",
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
+    name: "E-TTKF",
+    favicon: "/images/projects/logos/ettkf.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/eTtkf.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/eTtkf2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Bank module for the education sector. Successfully migrated from Angular to React, improving performance and maintainability.",
+    liveWebsiteHref: "https://e-ttkf.edu.az/",
   },
   {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    name: "Guideinbaku",
+    favicon: "/images/projects/logos/guideinbaku.ico", // <!-- TODO: Replace with your image -->
     imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
+      "/images/projects/guideinbaku.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/guideinbaku2.png", // <!-- TODO: Replace with your image -->
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Travel and tourism guide platform for Baku, Azerbaijan. Helping tourists discover the best of the city.",
+    liveWebsiteHref: "https://www.guideinbaku.com/en",
+  },
+  {
+    name: "Digimagg",
+    favicon: "/images/projects/logos/digimagg.ico", // <!-- TODO: Replace with your image -->
+    imageUrl: [
+      "/images/projects/digimagg.png", // <!-- TODO: Replace with your image -->
+      "/images/projects/digimagg2.png", // <!-- TODO: Replace with your image -->
+    ],
+    description:
+      "Digital marketing and e-commerce platform. Modern web application built with React and Next.js.",
+    liveWebsiteHref: "https://digimagg.com/",
+  },
+  {
+    name: "AHIK Internal Registry",
+    imageUrl: ["/images/projects/confidential-placeholder.svg"],
+    description:
+      "Internal registry system for AHIK. Secure government application for managing records and data. (Confidential - Internal Use Only)",
+  },
+  {
+    name: "Partner Integration System (TIS)",
+    imageUrl: ["/images/projects/confidential-placeholder.svg"],
+    description:
+      "Internal partner integration system for AHIK. Architected to enable seamless integration with external partners and systems. (Confidential - Internal Use Only)",
+  },
+  {
+    name: "QMKIK Portal",
+    imageUrl: ["/images/projects/confidential-placeholder.svg"],
+    description:
+      "Internal portal for State Committee for IDPs (Internally Displaced Persons). Government-scale application serving refugees and displaced communities. (Confidential - Internal Use Only)",
+  },
+  {
+    name: "ATIAHI Portal",
+    imageUrl: ["/images/projects/confidential-placeholder.svg"],
+    description:
+      "Internal portal for Education Trade Union. Supporting education workers across Azerbaijan. (Confidential - Internal Use Only)",
   },
 ];

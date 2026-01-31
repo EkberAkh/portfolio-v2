@@ -2,35 +2,47 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Frontend Team Lead",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "UWORK",
+      href: "https://uwork.az/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "June 2025 - Present",
+    location: "Azerbaijan",
+    description:
+      "As a Frontend Team Lead, I oversee the development lifecycle by managing GitHub workflows, conducting technical interviews, and leading Daily Scrums via ClickUp. Ensure high-quality delivery through thorough code reviews and resolving major technical bottlenecks to maintain architectural excellence.",
   },
   {
-    title: "Engineering Trainee",
+    title: "Frontend Developer",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "AISTGroup",
+      href: "https://aist.group/",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "April 2024 - Present",
+    location: "Azerbaijan",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Progressed from Intern to Middle Frontend Developer, delivering the IDDA award-winning E-AHIK alongside E-Keyfiyyet, E-Reqabet, and AHIK Internal Registry using Next.js and TypeScript. Architected Partner Integration System, Education Workers Registry, and Refugee Committee portal. Successfully migrated E-TTKF bank module from Angular to React.",
   },
   {
     title: "Frontend Developer Intern",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Azercosmos",
+      href: "https://azercosmos.az/",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "April 2024 - June 2024",
+    location: "Azerbaijan",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Implemented responsive designs and authentication systems while mastering modern libraries and collaborative workflows to deliver tasks under deadlines.",
+  },
+  {
+    title: "Frontend Developer Trainee",
+    organisation: {
+      name: "ABB Tech Academy",
+      href: "https://abbinnovation.az/en/",
+    },
+    date: "August 2026 - December 2026",
+    location: "Azerbaijan",
+    description:
+      "Developed banking dashboards and authentication systems under Agile methodology. Secured 1st place and successfully led first team to deliver high-quality financial software.",
   },
 ];

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
+import { FiDownload } from "react-icons/fi";
 
 import FadeUp from "@/animation/fade-up";
 
@@ -39,23 +40,35 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Amit Chauhan
+                Akbar Akhundov
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Software Developer
+                Frontend Developer
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I am a software developer specializing in building
-                high-performance, user-focused web applications. Skilled in{" "}
-                <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
-                an expert in{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+                Frontend Engineer specializing in{" "}
+                <span className="font-semibold text-accent">React</span> and{" "}
+                <span className="font-semibold text-accent">Next.js</span>{" "}
+                ecosystems. Experienced in architecting complex frontend systems
+                for government-scale projects, with a proven track record of
+                leading development teams to deliver scalable,{" "}
+                <span className="font-semibold text-accent">award-winning</span>{" "}
+                applications.
+              </div>
+            </FadeUp>
+            <FadeUp key="resume-button" duration={0.6} delay={0.4}>
+              <div className="pointer-events-auto mt-8">
+                <a
+                  href="/AkbarAkhundovCV (1).pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-base font-semibold text-background transition-transform duration-150 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 sm:text-lg"
+                >
+                  <FiDownload className="h-5 w-5" />
+                  Download Resume
+                </a>
               </div>
             </FadeUp>
           </AnimatePresence>

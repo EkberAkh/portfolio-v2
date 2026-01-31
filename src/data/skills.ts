@@ -3,13 +3,15 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
+  SiGraphql,
+  SiReactquery,
+  SiSwagger,
+  SiAntdesign,
+  SiFigma,
+  SiJira,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { RiRobot2Fill } from "react-icons/ri";
+import { FramerMotionIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -18,26 +20,21 @@ import CsssSvg from "@/public/icons/css.svg";
 import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
 
 // Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
@@ -46,56 +43,52 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Languages",
     skills: [
       {
-        name: "HTML",
+        name: "HTML5",
         icon: HtmlSvg,
       },
       {
-        name: "CSS",
+        name: "CSS3",
         icon: CsssSvg,
       },
       {
-        name: "SASS",
+        name: "SASS/SCSS",
         icon: SassSvg,
       },
       {
-        name: "Javascript",
+        name: "JavaScript",
         icon: JavascriptSvg,
       },
       {
-        name: "Typescript",
+        name: "TypeScript",
         icon: TypescriptSvg,
-      },
-      {
-        name: "Python",
-        icon: PythonSvg,
       },
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Frontend Frameworks & Libraries",
     skills: [
       {
-        name: "Reactjs",
+        name: "React JS",
         icon: ReactjsSvg,
       },
       {
-        name: "Nextjs",
+        name: "Next.js",
         icon: SiNextdotjs,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
-      {
-        name: "Redux",
+        name: "Redux Toolkit",
         icon: ReduxSvg,
       },
       {
-        name: "Tailwindcss",
+        name: "React Query",
+        icon: SiReactquery,
+      },
+      {
+        name: "Zustand",
+        icon: ReduxSvg,
+      },
+      {
+        name: "Tailwind CSS",
         icon: TailwindcssSvg,
       },
       {
@@ -103,24 +96,20 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: MuiSvg,
       },
       {
-        name: "Framer motion",
+        name: "Ant Design",
+        icon: SiAntdesign,
+      },
+      {
+        name: "Framer Motion",
         icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
       },
     ],
   },
   {
-    sectionName: "Backend",
+    sectionName: "Backend & APIs",
     skills: [
       {
-        name: "Nodejs",
+        name: "Node.js",
         icon: NodejsSvg,
       },
       {
@@ -128,24 +117,24 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiExpress,
       },
       {
-        name: "Socket.io",
+        name: "GraphQL",
+        icon: SiGraphql,
+      },
+      {
+        name: "WebSocket/WebRTC",
         icon: SiSocketdotio,
       },
       {
-        name: "Flask",
-        icon: SiFlask,
+        name: "Swagger",
+        icon: SiSwagger,
       },
     ],
   },
   {
-    sectionName: "Databases and ORMs",
+    sectionName: "Databases",
     skills: [
       {
-        name: "MongoDB",
-        icon: MongoDBSvg,
-      },
-      {
-        name: "Postgress",
+        name: "PostgreSQL",
         icon: PostgressSvg,
       },
       {
@@ -155,23 +144,44 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Tools and Technologies",
+    sectionName: "Cloud & DevOps",
     skills: [
       {
-        name: "Git",
-        icon: GitSvg,
-      },
-      {
-        name: "Docker",
-        icon: DockerSvg,
-      },
-      {
-        name: "AWS",
+        name: "AWS (S3, EC2, IAM)",
         icon: AwsSvg,
       },
       {
+        name: "AWS (EBS, ASG, ELB)",
+        icon: AwsSvg,
+      },
+      {
+        name: "AWS (RDS, Lambda)",
+        icon: AwsSvg,
+      },
+      {
+        name: "Git (GitHub/GitLab)",
+        icon: GitSvg,
+      },
+    ],
+  },
+  {
+    sectionName: "Tools & Technologies",
+    skills: [
+      {
         name: "Postman",
         icon: PostmanSvg,
+      },
+      {
+        name: "Figma",
+        icon: SiFigma,
+      },
+      {
+        name: "Jira/ClickUp/Redmine",
+        icon: SiJira,
+      },
+      {
+        name: "AI Agent Development",
+        icon: RiRobot2Fill,
       },
     ],
   },
