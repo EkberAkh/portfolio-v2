@@ -18,7 +18,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       name: "Israel Azerbaijan Training Center",
       href: "https://technest.idda.az/az",
     },
-    date: "March 2026 - October 2026",
+    date: "March 2023 - October 2023",
     location: "Azerbaijan",
     description:
       "Completed comprehensive Full Stack development program. Received Certificate of Honour in Full Stack Development.",
